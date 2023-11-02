@@ -10,6 +10,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
+    "dev": "ionic cap run android -l --external",
     "build:android": "ionic capacitor copy && ionic capacitor sync && ionic capacitor build android --prod"
   },
   "private": true,

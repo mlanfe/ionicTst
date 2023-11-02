@@ -27,6 +27,7 @@
 3. **ionic capacitor run android -l --external **
 4. [debug](Debugging Android Apps)
 5. <span style="color: red;font-height: 700"> ?? 如果添加了原生插件可以直接实现热加载吗</span>
+   - 不能, 需要执行 ionic capacitor copy=> ionic capacitor sync
 
 #### 打包
 
