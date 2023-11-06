@@ -37,9 +37,14 @@
 
 2. ionic capacitor build , build成功后会自动打开android studio
 
-3. 生成key:  keytool -genkey -v -keystore D:\key.jks  -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias key
+3. 生成key的几种方式(只需要生成一次key.jks):
 
-   只需要生成一次key.jks
+   1. keytool -genkey -v -keystore D:\key.jks  -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias key
+
+   2. 使用Android studio生成
+
+   3. 使用appflow时, 可以在appflow中在线生成
+
 
    查看生成的签名证书的信息:  keytool -v -list -keystore key.jks
 
